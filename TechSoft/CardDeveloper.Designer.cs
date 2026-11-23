@@ -26,8 +26,8 @@
 			lblHeader = new Label();
 			picBox = new PictureBox();
 			panel1 = new Panel();
-			lblStatus = new Label();
 			comBoxStatus = new ComboBox();
+			lblStatus = new Label();
 			lblProject = new Label();
 			lblDate = new Label();
 			lblDescription = new Label();
@@ -51,6 +51,7 @@
 			picBox.Location = new Point(0, 0);
 			picBox.Name = "picBox";
 			picBox.Size = new Size(200, 200);
+			picBox.SizeMode = PictureBoxSizeMode.Zoom;
 			picBox.TabIndex = 1;
 			picBox.TabStop = false;
 			// 
@@ -64,6 +65,14 @@
 			panel1.Size = new Size(200, 200);
 			panel1.TabIndex = 2;
 			// 
+			// comBoxStatus
+			// 
+			comBoxStatus.FormattingEnabled = true;
+			comBoxStatus.Location = new Point(16, 98);
+			comBoxStatus.Name = "comBoxStatus";
+			comBoxStatus.Size = new Size(169, 31);
+			comBoxStatus.TabIndex = 1;
+			// 
 			// lblStatus
 			// 
 			lblStatus.AutoSize = true;
@@ -72,14 +81,6 @@
 			lblStatus.Size = new Size(169, 23);
 			lblStatus.TabIndex = 0;
 			lblStatus.Text = "Статус выполнения:";
-			// 
-			// comBoxStatus
-			// 
-			comBoxStatus.FormattingEnabled = true;
-			comBoxStatus.Location = new Point(16, 98);
-			comBoxStatus.Name = "comBoxStatus";
-			comBoxStatus.Size = new Size(169, 31);
-			comBoxStatus.TabIndex = 1;
 			// 
 			// lblProject
 			// 

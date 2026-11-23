@@ -33,7 +33,7 @@
 			FLP.ForeColor = Color.White;
 			FLP.Location = new Point(0, 0);
 			FLP.Name = "FLP";
-			FLP.Size = new Size(900, 561);
+			FLP.Size = new Size(917, 561);
 			FLP.TabIndex = 0;
 			// 
 			// FormMain
@@ -41,13 +41,13 @@
 			AutoScaleDimensions = new SizeF(10F, 23F);
 			AutoScaleMode = AutoScaleMode.Font;
 			BackColor = Color.MediumPurple;
-			ClientSize = new Size(900, 561);
+			ClientSize = new Size(917, 561);
 			Controls.Add(FLP);
 			Font = new Font("Calibri", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
 			Margin = new Padding(4, 5, 4, 5);
 			Name = "FormMain";
 			StartPosition = FormStartPosition.CenterScreen;
-			Text = "FormMain";
+			Text = "Задачи";
 			ResumeLayout(false);
 		}
 
